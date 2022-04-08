@@ -32,7 +32,7 @@ module.exports = {
   },
   plugins: [
     new BrowserSyncPlugin({
-      host: 'localhost',
+      host: 'https://vocal-paletas-9dfdd5.netlify.app/',
       port: 3000,
       server: { baseDir: ['dist'] },
       files: ['./dist/*'],
